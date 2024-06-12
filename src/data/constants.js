@@ -9,8 +9,8 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Master-Keshav",
   resume:
-    "https://drive.google.com/file/d/1dNkOvQ4IUAsJvj9JyS0Z5AFj6PkUCm3v/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+    "https://drive.google.com/file/d/1PbUUiW9_3DS8-5CbdCwGvi6W5gBxT2z_/view?usp=sharing",
+  linkedin: "https://www.linkedin.com/in/keshavvyas/",
   twitter: "https://twitter.com/k3sh_av",
   insta: "https://www.instagram.com/_k3sh.av/",
   facebook: "https://www.facebook.com/keshavvyas2002/",
@@ -20,6 +20,11 @@ export const skills = [
   {
     title: "Frontend",
     skills: [
+      {
+        name: "Next Js",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC5UlEQVR4AbyUgWdCURTGs62QQAIJoKgI5C0BkwKgCCBKqGyEABREJABK/QsLQQHw9h8U0rASopCkoPS+na5bRq13e20dfnB993yf9849OsF6IpzEG9EkPoklseMs+VmTa5z8zs31SDwTNWJIbAmosOXaGr/7qNXcSpSJGQGNzHgP67XmEvFBKARuROG9JFHzF2JA4I8ZsN4qJWk2Fw8hXfrnMoF/Rj43Ew98WHAnytzzWD5iescAU+55fOvVSxfcbjfS6TQymQwkSbrY3OfzMa3f71cLUT3sCBcxvCBkDQ/V6/Xgcrl+1RYKBSwWCxSLRbUAX8ybr86tUABerVYLZrP5rDabzaLb7SKXy4lszFeC7W+IBBiPx5hMJlAUBaVSCXq9/kQbj8fRbreRTCZFZuGd0A0EA7DGqVQK6/Uaq9UKsVjsRBuJRFCv1xGNRkX3gm55TQCTyYRKpYJ9jUYjNnQ/tYFAAPl8HsFgUCAA89btRAN0Oh322S0WCwuzL1mWYbPZjlqv14tEIqH6Wji7qwMYDAZ25vF40O/32Xmj0YDRaGTndrsdoVAIDodDOMBSQwBGOBzGfD7HZrP5rr5qQTOEoihPi0UNouJABItG05pgE7EjJu26YDYKhvXeBMtX7GlgsRmX7PYoO+OuM98nwtiDWx+H+3N+0DQNGGMwDOPnTE3T5B7B51UAgiCgbVscx4F935EkCWhEiqJAkiTuJXxcBUAlyzKGYQC9dV3h+/4zlPw4J6ITAFSu62JZFtAjMKqqgtO6vXFQ8TkAqiiKQEu5bRvquoYoitxUzCVGVVUhTdNfP87zHPM8Y5omhGHILUa3yTF1h7o1jiO6roNt21xyfKshoflTt/q+R5ZlxA9chuRWS2ZZFoqiQFmWCIKAzvXUkt1uSh3HQRzHZEygaRqXKb3VlhMrkkZ4ngdd12l5uWz5rcGEWi/L8pckSR+CILz+STRjjL0zxl7+ZTi9Gs/rZ+L5N8AJA23K4ax1AAAAAElFTkSuQmCC",
+      },
       {
         name: "React Js",
         image:
@@ -201,8 +206,9 @@ export const experiences = [
     role: "Full Stack Software Developer Intern",
     company: "Onsitego",
     date: "June 2023",
-    desc: "Handling SKU management, including creation, updates, and script development to enhance efficiency. Worked on features to improve CRM workflows for a more user-friendly experience, ensuring operational excellence. My role involved skillfully utilizing a tech stack that included Python, Django, React JS, Docker, and MySQL to support and achieve our goals",
+    desc: "Created Product dashboard for configuring SKUs, including creation, updates, and script development to enhance efficiency. Worked on features to improve CRM workflows for a more user-friendly experience, ensuring operational excellence. My role involved skillfully utilizing a tech stack that included Python, Django, React JS, Docker, and MySQL to support and achieve our goals",
     skills: [
+      "NextJS",
       "ReactJS",
       "Redux",
       "Django",
@@ -252,18 +258,18 @@ export const projects = [
     description:
       "A Property management application “Rentify that empowers users and agents to create, edit, and manage properties available for Rent. Developed a modern React web app with a dynamic, responsive interface enriched with interactive charts.",
     image:
-      "https://raw.githubusercontent.com/Master-Keshav/Rentify/master/Rentify.png",
+      "https://raw.githubusercontent.com/Master-Keshav/Rentify/master/public/Rentify.png",
     tags: [
+      "Next Js",
       "TypeScript",
       "MongoDb",
       "Node Js",
-      "Express Js",
       "Redux",
-      "React Flow",
+      "Google Auth",
     ],
     category: "web app",
     github: "https://github.com/Master-Keshav/Rentify",
-    webapp: "https://rentify-client.vercel.app/",
+    webapp: "https://rentify-lime.vercel.app/",
   },
   {
     id: 9,
