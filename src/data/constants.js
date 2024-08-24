@@ -6,7 +6,7 @@ export const Bio = {
     "Mentor"
   ],
   description: [
-    "I'm Keshav, a Computer Science graduate and Software Engineer at Onsitego in Bangalore. I optimize CRM operations and tackle complex challenges, leveraging skills in C++, Python, Java, Django, React, and Docker. I've built diverse projects, from property management platforms to blockchain apps, driven by a passion for efficiency and innovation.",
+    "I'm a Computer Science graduate and Software Engineer at Onsitego in Bangalore. I optimize CRM operations and tackle complex challenges, leveraging skills in C++, Python, Java, Django, React, and Docker. I've built diverse projects, from property management platforms to blockchain apps, driven by a passion for efficiency and innovation.",
     "Outside of tech, I'm repping my school on the cricket or badminton court, jamming to music, and contributing to open-source projects. Let's connect and explore what makes tech and life exciting!"
   ],
   github: "https://github.com/Master-Keshav",
