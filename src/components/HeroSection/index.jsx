@@ -28,7 +28,12 @@ const HeroSection = () => {
                                 />
                             </Span>
                         </TextLoop>
-                        <SubTitle>{Bio.description}</SubTitle>
+                        <SubTitle>{Bio.description.map((item, index) => (
+                            <div key={index}>
+                                <p key={index}>{item}</p>
+                                <br />
+                            </div>
+                        ))}</SubTitle>
                         <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
                     </HeroLeftContainer>
 

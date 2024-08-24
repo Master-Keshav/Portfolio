@@ -1,15 +1,16 @@
 export const Bio = {
   name: "Keshav Vyas",
   roles: [
-    "Software Developer",
-    "Programmer",
+    "Software Engineer",
+    "Competitive Programmer",
     "Mentor"
   ],
-  description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+  description: [
+    "I'm Keshav, a Computer Science graduate and Software Engineer at Onsitego in Bangalore. I optimize CRM operations and tackle complex challenges, leveraging skills in C++, Python, Java, Django, React, and Docker. I've built diverse projects, from property management platforms to blockchain apps, driven by a passion for efficiency and innovation.",
+    "Outside of tech, I'm repping my school on the cricket or badminton court, jamming to music, and contributing to open-source projects. Let's connect and explore what makes tech and life exciting!"
+  ],
   github: "https://github.com/Master-Keshav",
-  resume:
-    "https://drive.google.com/file/d/1PbUUiW9_3DS8-5CbdCwGvi6W5gBxT2z_/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1XA-gwAE1wKOPnyO1gxYThCoLfG7z9hzW/view",
   linkedin: "https://www.linkedin.com/in/keshavvyas/",
   twitter: "https://twitter.com/k3sh_av",
   insta: "https://www.instagram.com/_k3sh.av/",
@@ -105,7 +106,7 @@ export const skills = [
       {
         name: "Postman",
         image:
-          "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAXVBMVEUAAAD/cED/ajX/azf/bDf/bDb/bDf/azb/aDj/bDf/bTf/bTX/azf/bDf/ajX/bDb/cDD/bDf/bDb/bTX/bDf/azf/bTf/bDb/bDb/azb/bDj/bDb/bjf/bDj/ajhLM8F2AAAAH3RSTlMAEGCfz+//XyCQj4/fvzCgEO/PYK9w34BQoIB/T0Bgzb7ZEAAAAN1JREFUeAF1kolugzAQRMcYT5dkUyhtQ3r+/2dWGalaQbxPJ7zZw7IRlKGOjWxjfTI8YlNjUI+RcuKBc9mVOx+4IHjueLesPrwZRMm8e1HglHnyrAF9r71oAOa+b7wzAUvmxUvBkPrVSb5iznyFacaaeL4BF3JF63uNfyevyDxp2g+pd2AjiZZ4btrhqiXj1xJ54KZL/9i/gE/+83VzHXNgUJXY8a2mecIBTMwT+jbmCRrUIk1suLN4lnBAWJJwS569EuGzHmN4qOKYKNhjM4P2gw7ld14b2dY6RDX+ALhIFgGJ//ETAAAAAElFTkSuQmCC",
       },
     ],
   },
@@ -203,21 +204,25 @@ export const experiences = [
   {
     id: 0,
     img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABXUlEQVR4AcSXIWzGIBCF5xViPniFV3hVryrm03mDN79XeFWvSOaTeoVXeLPuLUE80ULvytYmnzy+Rw+gffuT5+MzgJegYqh8BnvFPxEgUwD73/KJ5PGJ2YeT2XNrtiGu7693X7EkMTXEdCivaGQWLCCB/YQMIvBHbSFmqTiCXUgGntuikc+gKORM4LZI5Dzru7xOFqwFXibXM5HYg8gLkuXTSDGReTcwLDcXel5AAI5qJrBeCPErX0iewMwBQmeADZj2om3Wr3VBLsAdDVA0cn46b6K0Cnu958TqcbTbLglPzb2BPStKjaJlYACnKfKjAmhTG4HcPx1gae0kbQAvCJBFdwIVFlGhYPaEVx8gwHXkriPPd9MX4A/qDAiX7oHG072IiA3EKk1cc/sgo5mMpAArOUS2wXIn/fo1g0JklmtCrDfkEZghPx6CIKWKh/8L8mdXoNW//gyJT1EPGAAXGFImjyT3JgAAAABJRU5ErkJggg==",
-    role: "Full Stack Software Developer Intern",
+    role: "Software Engineer",
     company: "Onsitego",
-    date: "June 2023",
-    desc: "Created Product dashboard for configuring SKUs, including creation, updates, and script development to enhance efficiency. Worked on features to improve CRM workflows for a more user-friendly experience, ensuring operational excellence. My role involved skillfully utilizing a tech stack that included Python, Django, React JS, Docker, and MySQL to support and achieve our goals",
+    date: "August 2024 - Current",
+    desc: "Working with the Customer Relationship Management Team (CRM) (Engineer Facing Division) to identify and resolve instances of fraud in daily operations to improve the integrity of the system.",
     skills: [
-      "NextJS",
-      "ReactJS",
-      "Redux",
-      "Django",
-      "Python",
-      "HTML",
-      "CSS",
-      "JavaScript",
-    ],
+      "NextJS", "ReactJS", "Redux", "Django", "Python", "HTML", "CSS", "JavaScript",
+    ]
   },
+  {
+    id: 1,
+    img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABXUlEQVR4AcSXIWzGIBCF5xViPniFV3hVryrm03mDN79XeFWvSOaTeoVXeLPuLUE80ULvytYmnzy+Rw+gffuT5+MzgJegYqh8BnvFPxEgUwD73/KJ5PGJ2YeT2XNrtiGu7693X7EkMTXEdCivaGQWLCCB/YQMIvBHbSFmqTiCXUgGntuikc+gKORM4LZI5Dzru7xOFqwFXibXM5HYg8gLkuXTSDGReTcwLDcXel5AAI5qJrBeCPErX0iewMwBQmeADZj2om3Wr3VBLsAdDVA0cn46b6K0Cnu958TqcbTbLglPzb2BPStKjaJlYACnKfKjAmhTG4HcPx1gae0kbQAvCJBFdwIVFlGhYPaEVx8gwHXkriPPd9MX4A/qDAiX7oHG072IiA3EKk1cc/sgo5mMpAArOUS2wXIn/fo1g0JklmtCrDfkEZghPx6CIKWKh/8L8mdXoNW//gyJT1EPGAAXGFImjyT3JgAAAABJRU5ErkJggg==",
+    role: "Software Engineering Intern",
+    company: "Onsitego",
+    date: "June 2023 - July 2024",
+    desc: "Transformed the SKU Configuration Process, cutting scripting time by 80%. Developed a tool that reduced pricing update time from 3 hours to under 10 minutes, increasing ticket resolution efficiency by 300%. Collaborated with the CRM team to enhance features and fix key bugs, streamlining engineering workflows.",
+    skills: [
+      "NextJS", "ReactJS", "Redux", "Django", "Python", "HTML", "CSS", "JavaScript",
+    ]
+  }
 ];
 
 export const education = [
@@ -226,7 +231,7 @@ export const education = [
     img: "https://ums.lpu.in/lpuums/assets/login/img/logos/seal.svg",
     school: "Lovely Professional University, Jalandhar",
     date: "Aug 2020 - July 2024",
-    grade: "9.50 CGPA",
+    grade: "9.03 CGPA",
     desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering (Hons.) at Lovely Professional University, Jalandhar. I have completed my 7 semesters and have a CGPA of 9.50. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I won the Codezilla Competitive Coding Competition help at LPU wherin more than 500 students participated in it.",
     degree: "Bachelor of Technology (Hons) - BTech Hons, Computer Science and Engineering",
   },
