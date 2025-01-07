@@ -34,7 +34,7 @@ const HeroSection = () => {
                                 <br />
                             </div>
                         ))}</SubTitle>
-                        <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
+                        {/* <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton> */}
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">
