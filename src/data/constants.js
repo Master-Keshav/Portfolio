@@ -6,8 +6,8 @@ export const Bio = {
     "Mentor"
   ],
   description: [
-    "I'm a Computer Science graduate and Software Engineer at Onsitego in Bangalore. I optimize CRM operations and tackle complex challenges, leveraging skills in C++, Python, Java, Django, React, and Docker. I've built diverse projects, from property management platforms to blockchain apps, driven by a passion for efficiency and innovation.",
-    "Outside of tech, I'm repping my school on the cricket or badminton court, jamming to music, and contributing to open-source projects. Let's connect and explore what makes tech and life exciting!"
+    "I'm a Computer Science graduate working as a Software Engineer at Myntra in Bangalore, where I'm passionate about democratizing data and building robust data pipelines. Previously at Onsitego, I dived into optimizing CRM operations and solving complex challenges.",
+    "But hey, life isn't all about code! You'll often find me lost in the rhythm of music, crafting tunes, or repping my school on the cricket or badminton court. Whether it's competitive programming or collaborating on open-source projects, I believe in learning, growing, and sharing experiences with others."
   ],
   github: "https://github.com/Master-Keshav",
   resume: "https://drive.google.com/file/d/1XA-gwAE1wKOPnyO1gxYThCoLfG7z9hzW/view",
@@ -76,6 +76,15 @@ export const skills = [
     title: "Backend",
     skills: [
       {
+        name: "Spring Boot",
+        image: "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
+      },
+      {
+        name: "Java",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAh1BMVEXe5uzAztqxwtHc4OT09PT19fXw8PCqu8rn5+f8/Pzs0Lf6+vrnrXrleiugscLk5OT39/fs7OzkcR7lx6zh4eHhr4LhZRLhpW+Vp7fd3d3gYA6Knq3W1tbbbhzXoW1cepV6jZ6EmKdIZoJWc4vQ0NB8kJ6otb3Ly8twhZV1jqW5vcK9yM9ofY52NCXaAAAAr0lEQVR4AU3KhUIDMQwA0BwrWWftZWQSLrDq/P+/jxPsVaIAzcs/TV/PzOsI+2dmDcztYoTLVf/bed9YDXC9MX3oG863PVpv6c20rXfg2BiDuz0ftmgMOzgKItKe9nsiRDn2DSKyG3m3Vpj6RqfWq+rHp8opiHYQ1XNKub8dp1Ai1MIi554rJYVLhXAR0Zz6DU1BLwGCsmqZMGuAq7K7nSbe6hXqnf/4e4VHfP4TH1/dVRTdLcfq+gAAAABJRU5ErkJggg==",
+      },
+      {
         name: "Node Js",
         image: "https://nodejs.org/static/images/logo.svg",
       },
@@ -94,6 +103,10 @@ export const skills = [
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAolBMVEUAAAARMiijr6tieHFMZV2VpJ8jQTj///97jYgoRTwrSUAXNy0ePTQ8V05rf3k5VExDXVXO1dNFX1f19vYrSEDX3dvAycaAkoyHl5JOZl+msq8SMyl+kIuImZNQaGHJ0M7S2NbHz83L0tDo6+qJmZUkQjmPn5rb4N/7/Pvv8vFvg32otLATNCodPDPi5uXl6Od9j4oZOS9BXFR2iYR4i4VOZ1/ikD+GAAAAAXRSTlMAQObYZgAAAL5JREFUeAHM0oMCwzAQANBebXe27f//tt3MS+ZV4YsjCMB8sJ7zpBCIoiiBrCiKSgBN0xTQMTR4wHwLWLZtwx3guLq7BarneNYN8AMNH3qIMNIuQHwFrAQLM9kcCfJYVigCkKCEZT5rmeXt5nF6qBA9HOdQVRnAqmFhVG+QAJzmaR9ad0+z3eniXvX6yQCG2Nm9+zBSzdgYA1gTTZtajCs3wxGGQIJ5q4dgQQN3ijNZAg1gvFpPzJS+GYdg9gcA11IP5qWeUEYAAAAASUVORK5CYII=",
       },
       {
+        name: "Django REST Framework",
+        image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAolBMVEUAAAARMiijr6tieHFMZV2VpJ8jQTj///97jYgoRTwrSUAXNy0ePTQ8V05rf3k5VExDXVXO1dNFX1f19vYrSEDX3dvAycaAkoyHl5JOZl+msq8SMyl+kIuImZNQaGHJ0M7S2NbHz83L0tDo6+qJmZUkQjmPn5rb4N/7/Pvv8vFvg32otLATNCodPDPi5uXl6Od9j4oZOS9BXFR2iYR4i4VOZ1/ikD+GAAAAAXRSTlMAQObYZgAAAL5JREFUeAHM0oMCwzAQANBebXe27f//tt3MS+ZV4YsjCMB8sJ7zpBCIoiiBrCiKSgBN0xTQMTR4wHwLWLZtwx3guLq7BarneNYN8AMNH3qIMNIuQHwFrAQLM9kcCfJYVigCkKCEZT5rmeXt5nF6qBA9HOdQVRnAqmFhVG+QAJzmaR9ad0+z3eniXvX6yQCG2Nm9+zBSzdgYA1gTTZtajCs3wxGGQIJ5q4dgQQN3ijNZAg1gvFpPzJS+GYdg9gcA11IP5qWeUEYAAAAASUVORK5CYII=",
+      },
+      {
         name: "MySQL",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
@@ -107,6 +120,39 @@ export const skills = [
         name: "Postman",
         image:
           "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAXVBMVEUAAAD/cED/ajX/azf/bDf/bDb/bDf/azb/aDj/bDf/bTf/bTX/azf/bDf/ajX/bDb/cDD/bDf/bDb/bTX/bDf/azf/bTf/bDb/bDb/azb/bDj/bDb/bjf/bDj/ajhLM8F2AAAAH3RSTlMAEGCfz+//XyCQj4/fvzCgEO/PYK9w34BQoIB/T0Bgzb7ZEAAAAN1JREFUeAF1kolugzAQRMcYT5dkUyhtQ3r+/2dWGalaQbxPJ7zZw7IRlKGOjWxjfTI8YlNjUI+RcuKBc9mVOx+4IHjueLesPrwZRMm8e1HglHnyrAF9r71oAOa+b7wzAUvmxUvBkPrVSb5iznyFacaaeL4BF3JF63uNfyevyDxp2g+pd2AjiZZ4btrhqiXj1xJ54KZL/9i/gE/+83VzHXNgUJXY8a2mecIBTMwT+jbmCRrUIk1suLN4lnBAWJJwS569EuGzHmN4qOKYKNhjM4P2gw7ld14b2dY6RDX+ALhIFgGJ//ETAAAAAElFTkSuQmCC",
+      },
+    ],
+  },
+  {
+    title: "Data Engineering & Big Data",
+    skills: [
+      {
+        name: "Apache Kafka",
+        image: "https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg",
+      },
+      {
+        name: "Trino",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEWoqFzdycT-7rr4tMbZNLHaPyX5SOwLhzajBhqv5S9J__DQ9uuZRbWOmRCe76F9-dyH6zSlb76ZLfCNtXoZbK7z1OeIFi82RBuGBgdrjh&s=10",
+      },
+      {
+        name: "PySpark",
+        image: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg",
+      },
+      {
+        name: "Azure Databricks",
+        image: "https://www.vectorlogo.zone/logos/databricks/databricks-icon.svg",
+      },
+      {
+        name: "Apache Superset",
+        image: "https://superset.apache.org/img/superset-logo-horiz-apache.svg",
+      },
+      {
+        name: "Tableau",
+        image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAQlBMVEVHcExwmaVwmaVlgJtwmaXrkShwmaVah5vrkShah5vodizodizodixbZZFbZZFbZZFbZZHHIDYeRH7HIDYeRH4eRH76/o4UAAAAFXRSTlMAEPw7VXizePb2NP3ws1P8EHh49vNnJOVcAAAAr0lEQVR4AX3Q0RaFEBCF4Q1SCKT3f9WTuaE1R99FN/9iTHgRAmtSYkVpKbUCYwyATT42ANZitu/zyeNgccyco9mJodfCHsSyCIzIrnUOWM70nkdapQsBeK+iNgVgRKJOhU5LzWNMEYCQnYDzIQRPH4ecuvwZv6/9fhApZY61YnZd809o7V90jsVykQJSW7vv1iqLOY/Irk1pOVPFlKLikVY50+Nkq5BxkhkzV3LG7AcvlAr9NZNe3AAAAABJRU5ErkJggg==",
+      },
+      {
+        name: "SQL",
+        image: "data:image/png;base64,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",
       },
     ],
   },
@@ -140,7 +186,7 @@ export const skills = [
       {
         name: "Linux",
         image:
-          "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIADgALwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAGAAQFBwgCAwH/xAAyEAABAwMCBAUDAgcBAAAAAAABAgMEAAURBiEHEjFREyJBYYEUcZEyoTNCQ3KC0eEl/8QAGAEAAwEBAAAAAAAAAAAAAAAAAgQFAAP/xAAiEQABAwMEAwEAAAAAAAAAAAABAAIDBBESBSExUUFh0SL/2gAMAwEAAhEDEQA/ALxrla0toUtZwlIyT2FdV4T0lUGQkdS0oD8VllknWusrrq26vyZcl5MMrPgRAshttHoMdCrHU1N8PuIc3S06C29JlPW5xfJLZeWVISgn9TYPQgHO3Xp2NFNk0tG1Db7I89GgpjRVR3mwlohbrXhp8RpzpnKwTzHPXsaHOKjExmBbxeGof14lSEtuQ0BKUx/KUIUABvkqx7dTS7KyB8hia4ZDwjMbwLkLTgIIyNxSpvblpdt8VxBCkqZQoEeoIFOKYQJVDaq1DF03alS5ILjq1BqNGRuuQ6f0oSO5NTNVCGpGtOM63UyP/M05jk5Rkc/Q/wCRWFb9m/tWWUvY9HXi0Wq3Q25JC0x0Jfx5gleNwDnIA6fFRfFPRoY0ui8x0pky7YouutujmS40rZYx7bHPsatjG43OwpndLa1cob8WQpSmX21NuNk+VaVDBHfoaXZSwskMjWjI+UZkeW4k7IC4IazZvmnm7NKdAuVubCAknd1kbJUO+Nkn471ZlZLu8CZoDWj30D5Eq1yAtpSv6jZAIJ+6VAHvvWp7LcmbxaIVyjfwpbCHkg9QFDOPimECb6qlzIOnLjKtjXizW46iwjuvG370DcC4C4Fou7c4FNyM1P1CHCPEx4SME79CorwfXepifIkSZEhDz7im0vrARnCfKogbfFCmro1zieFqDTa1N3aCN0pGfqGuqm1J/mHqB+N6hN1tjqoRWs3i57+J00ZEeV91bo/Wr4rqo3Tc+VdLFCnT4LkGU+0FOxnAQW1dsHf3371xqi6RrPZJEyW+lltI5QT1Uo7BIHqT2q4Uks/8bVId1/MLS0ZciMoSebZR23z09MVcPBhEhvhxam5QUFpLwAV15fFXj/ntigu9aHgX+4xbhMW8OVpKFIQvAUB8Z/FWFp6dDtUQQneViOjAaPRCAABy+3SpUGrwyOaw7E89A9Jp9I9oJCaSLHd4xUW0tTUkk8yVciySc7g7fvUROnCCkouEd+OsjAS62fN9j0PxSpVwqtFpiC9twV0iq5L4ldWe38SPpi4xd7a3FcwqOxPYUt1pGNgogA59iSRQhqvQHES53Fm43e4Rru1GcC0ssOFPKkHJ5W+UDP23NKlVoNszFJE73RFa7s9dFog2yI6uXgJWlaSkNe69vKPvRvatNMRSl6c4ZknHVY8if7U/7zX2lU+j06CL92ufaZmqHu24X//Z",
+          "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIADgALwMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAEBwUG/8QAKxAAAgECBAQFBQEAAAAAAAAAAQIDBBEABRIhMUFRYQYTIjOxMnKBkbIU/8QAGAEAAgMAAAAAAAAAAAAAAAAAAAIDBAX/xAAcEQACAwEAAwAAAAAAAAAAAAABAgADEhEEITH/2gAMAwEAAhEDEQA/AODy+OepqPJpV1TupEY2+rlxx01N4ZzaKalaro6gxeWRPvHu9rgix4cvxjE8Itp8Q0Z6PfFfkrWk0pImlRu5vig9rpzgHJu+VXqz6RI3DV6ZKaOoR10BxUPsbnfTYDptg0zP/npnl9xlOo2G/qOF5jSSQVMupSLyNpFt9IPHBK32aX7D/RxJvQjePSEcEMTNDwvBMuawVHkuYkPqa22KXHLFNTgyk3YkKUPzidnOaRoHQwTBWmEip5lwg5juOHTCqTM1jRXp5gzg7q7W2v3IPzhWUMOGFodm6RBZpmdXmUpgKL6WIAjU3Yd8EzKhqYoKZpIXACEE2vbcnGyamljZ9TRwrqJvER6h+yb37YMc5pRFJEEnGqRWLK9rgch0ueZvgChR6jV6BGVn/9k=",
       },
       {
         name: "PL/SQL",
@@ -156,6 +202,11 @@ export const skills = [
         name: "Docker",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+      },
+      {
+        name: "Kubernetes",
+        image:
+          "https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg",
       },
       {
         name: "Nginx",
@@ -182,6 +233,11 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
       },
       {
+        name: "Cursor",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAb1BMVEUUEgsNCgAJBgAkIh1QT0o9OzYfHRgODAAYFg9FRD1ZWFNDQTw7OTRVVE8uLCVKSUQsKiMyMCobGRO8u7r09PTo6Ofh4N+BgX7///+hoJ3W1dLc29hoZ2PIx8R1dHCzsq5gX1tycW1tbGiXlpMAAABPX0V9AAAA0ElEQVR4Ab3RRYLEIAAAQYgnaNyDLP//4khcjzt9LRzwiyB8JMt2XO+e/SCMIoQwuDKEOCKEoE/0rBYlXyNozD6wh1g4xum3mCebQZRm+b4C+xsyVmbVVlFTuEPioHqhvGlcfEBCmJPO1Jb4hJ/Crsjapmn6GJ1x7Gtt595gN3Ttx0SMLiiVUiNK94yRHiZshdbsgM5IIzZaqaFDPljj3YLt34gc7DJ4Xrbv1KCwOf2mYcOguqJUAzM+OGcl0aBTHSUWuMvQTnEDHoLGQPD/vQEqLRggRsFNbQAAAABJRU5ErkJggg==",
+      },
+      {
         name: "Figma",
         image:
           "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
@@ -203,24 +259,35 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABXUlEQVR4AcSXIWzGIBCF5xViPniFV3hVryrm03mDN79XeFWvSOaTeoVXeLPuLUE80ULvytYmnzy+Rw+gffuT5+MzgJegYqh8BnvFPxEgUwD73/KJ5PGJ2YeT2XNrtiGu7693X7EkMTXEdCivaGQWLCCB/YQMIvBHbSFmqTiCXUgGntuikc+gKORM4LZI5Dzru7xOFqwFXibXM5HYg8gLkuXTSDGReTcwLDcXel5AAI5qJrBeCPErX0iewMwBQmeADZj2om3Wr3VBLsAdDVA0cn46b6K0Cnu958TqcbTbLglPzb2BPStKjaJlYACnKfKjAmhTG4HcPx1gae0kbQAvCJBFdwIVFlGhYPaEVx8gwHXkriPPd9MX4A/qDAiX7oHG072IiA3EKk1cc/sgo5mMpAArOUS2wXIn/fo1g0JklmtCrDfkEZghPx6CIKWKh/8L8mdXoNW//gyJT1EPGAAXGFImjyT3JgAAAABJRU5ErkJggg==",
+    img: "https://media.licdn.com/dms/image/v2/D560BAQHlxcq3wbl2IA/company-logo_100_100/company-logo_100_100/0/1719917177970/myntra_logo?e=1764806400&v=beta&t=WrBt8pzCqQ3HWAxk8aIhqHktdq37JZnvieYuZQQuTaw",
     role: "Software Engineer",
-    company: "Onsitego",
-    date: "August 2024 - Current",
-    desc: "Working with the Customer Relationship Management Team (CRM) (Engineer Facing Division) to identify and resolve instances of fraud in daily operations to improve the integrity of the system.",
+    company: "Myntra",
+    date: "December 2024 - Present",
+    desc: "Working as a Software Engineer at Myntra in Bangalore, passionate about democratizing data and building robust data pipelines. Leveraging expertise in Spring Boot, Trino, Apache Kafka, Java, and data engineering technologies to optimize data infrastructure across the organization.",
     skills: [
-      "NextJS", "ReactJS", "Redux", "Django", "Python", "HTML", "CSS", "JavaScript",
+      "Spring Boot", "Trino", "Apache Kafka", "Java", "Systems Design", "PySpark", "Azure Databricks", "Apache Superset", "Data Lakes", "SQL", "React.js"
     ]
   },
   {
     id: 1,
-    img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABXUlEQVR4AcSXIWzGIBCF5xViPniFV3hVryrm03mDN79XeFWvSOaTeoVXeLPuLUE80ULvytYmnzy+Rw+gffuT5+MzgJegYqh8BnvFPxEgUwD73/KJ5PGJ2YeT2XNrtiGu7693X7EkMTXEdCivaGQWLCCB/YQMIvBHbSFmqTiCXUgGntuikc+gKORM4LZI5Dzru7xOFqwFXibXM5HYg8gLkuXTSDGReTcwLDcXel5AAI5qJrBeCPErX0iewMwBQmeADZj2om3Wr3VBLsAdDVA0cn46b6K0Cnu958TqcbTbLglPzb2BPStKjaJlYACnKfKjAmhTG4HcPx1gae0kbQAvCJBFdwIVFlGhYPaEVx8gwHXkriPPd9MX4A/qDAiX7oHG072IiA3EKk1cc/sgo5mMpAArOUS2wXIn/fo1g0JklmtCrDfkEZghPx6CIKWKh/8L8mdXoNW//gyJT1EPGAAXGFImjyT3JgAAAABJRU5ErkJggg==",
+    img: "https://media.licdn.com/dms/image/v2/C4E0BAQEcxzr2w3aaCA/company-logo_100_100/company-logo_100_100/0/1640336875854/onsitego_logo?e=1764806400&v=beta&t=l9cV4f3aPpxWGGMUn5Ktj1aDCwh3Y3I67SKFDUVdeBU",
+    role: "Software Engineer",
+    company: "Onsitego",
+    date: "August 2024 - December 2024",
+    desc: "Worked with the Customer Relationship Management Team (CRM) (Engineer Facing Division) to identify and resolve instances of fraud in daily operations to improve the integrity of the system. Enhanced system workflows and implemented solutions to streamline engineering operations.",
+    skills: [
+      "Next.js", "React.js", "Redux", "Django", "Django REST Framework", "Python", "MySQL", "Software Design", "Full-Stack Development"
+    ]
+  },
+  {
+    id: 2,
+    img: "https://media.licdn.com/dms/image/v2/C4E0BAQEcxzr2w3aaCA/company-logo_100_100/company-logo_100_100/0/1640336875854/onsitego_logo?e=1764806400&v=beta&t=l9cV4f3aPpxWGGMUn5Ktj1aDCwh3Y3I67SKFDUVdeBU",
     role: "Software Engineering Intern",
     company: "Onsitego",
     date: "June 2023 - July 2024",
     desc: "Transformed the SKU Configuration Process, cutting scripting time by 80%. Developed a tool that reduced pricing update time from 3 hours to under 10 minutes, increasing ticket resolution efficiency by 300%. Collaborated with the CRM team to enhance features and fix key bugs, streamlining engineering workflows.",
     skills: [
-      "NextJS", "ReactJS", "Redux", "Django", "Python", "HTML", "CSS", "JavaScript",
+      "Next.js", "React.js", "Redux", "Django", "Python", "Node.js", "Systems Design"
     ]
   }
 ];
@@ -336,5 +403,18 @@ export const projects = [
     category: "web app",
     github: "https://github.com/Master-Keshav/ToDoList-React",
     webapp: "https://master-keshav.github.io/ToDoList-React/",
+  },
+];
+
+export const connectWithMe = [
+  {
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/keshavvyas/",
+    platform: "LinkedIn",
+  },
+  {
+    name: "Instagram",
+    url: "https://www.instagram.com/_k3sh.av",
+    platform: "Instagram",
   },
 ];
